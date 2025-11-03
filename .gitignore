@@ -29,6 +29,7 @@ ENV/
 
 # Data and outputs
 data/*.csv
+!data/sample/*.csv
 outputs/*.csv
 outputs/visualizations/*
 !outputs/visualizations/.gitkeep

@@ -71,9 +71,14 @@ The system follows a modular pipeline architecture:
    ```bash
    cp .env.example .env
    ```
-   Edit `.env` to set your `LOCAL_DATA_PATH`
 
-5. Download a dataset from Kaggle and place it in your data directory
+5. Generate sample data:
+   ```bash
+   python create_sample_data.py
+   ```
+   This will create a sample HR dataset in `data/sample/hr_attrition.csv`
+
+Note: For real-world usage, you can replace the sample data with actual data from Kaggle:
 
 ## 🚀 Usage
 

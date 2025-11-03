@@ -119,7 +119,7 @@ df['YearsInCurrentRole'] = df.apply(
 )
 
 # Save to CSV
-output_path = '/Users/michaelromero/Documents/AI_BusinessOps_Data/hr_attrition.csv'
+output_path = 'data/sample/hr_attrition.csv'
 df.to_csv(output_path, index=False)
 print(f"Sample dataset created at: {output_path}")
 print(f"Shape: {df.shape}")
