@@ -28,10 +28,11 @@ venv/
 ENV/
 
 # Data and outputs
-data/*.csv
-!data/sample/*.csv
+AI_BusinessOps_Data/*.csv
+!AI_BusinessOps_Data/.gitkeep
 outputs/*.csv
-outputs/visualizations/*
+outputs/visualizations/*.png
+outputs/visualizations/*.html
 !outputs/visualizations/.gitkeep
 
 # Jupyter Notebook
@@ -51,3 +52,6 @@ outputs/visualizations/*
 
 # Logs
 *.log
+
+# macOS
+.DS_Store

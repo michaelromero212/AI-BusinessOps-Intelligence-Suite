@@ -13,7 +13,7 @@ import os
 
 def load_data():
     """Load the HR dataset."""
-    data_path = os.path.join('data/sample', 'hr_attrition.csv')
+    data_path = os.path.join('AI_BusinessOps_Data', 'hr_attrition.csv')
     return pd.read_csv(data_path)
 
 def prepare_features(df):

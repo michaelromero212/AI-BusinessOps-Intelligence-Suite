@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from scipy.stats import norm
 
 # Set random seed for reproducibility
 np.random.seed(42)
@@ -119,7 +118,7 @@ df['YearsInCurrentRole'] = df.apply(
 )
 
 # Save to CSV
-output_path = 'data/sample/hr_attrition.csv'
+output_path = 'AI_BusinessOps_Data/hr_attrition.csv'
 df.to_csv(output_path, index=False)
 print(f"Sample dataset created at: {output_path}")
 print(f"Shape: {df.shape}")
